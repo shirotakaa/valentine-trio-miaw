@@ -59,14 +59,31 @@ body {
   .text {
     position: absolute;
     font-family: 'Brush Script MT', cursive;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
-    line-height: 25px;
-    top: 35%;
+    line-height: 35px;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #003049;
     width: 100%;
+}
+  
+  .text-1 {
+    position: absolute;
+    fonr-family: 'Arial', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    top: 55%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    color: #003049;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
   
   .heart {
